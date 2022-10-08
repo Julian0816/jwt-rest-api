@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "start:dev":  "npx nodemon server.js"
+    "start:dev": "npx nodemon server.js"
   },
   "keywords": [],
   "author": "Julian Martinez",
@@ -14,7 +14,9 @@
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
     "express": "^4.18.1",
+    "helmet": "^6.0.0",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
     "nedb": "^1.8.0"
   },
   "devDependencies": {
