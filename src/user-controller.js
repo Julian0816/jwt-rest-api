@@ -27,7 +27,8 @@ const createUserController = (userService) => {
     };
 
     userController.checkToken = (req, res, next) => {
-        userService.checkToken(req.query.token, (err, data) => {
+        const token = req.headers.authorization && req.headers.authorization.split(" ")[1];
+        userService.checkToken(token, (err, data) => {
             if (err) {
                 res.status(401).send({ ok: false, error: err});
             } else {
