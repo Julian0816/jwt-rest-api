@@ -13,4 +13,4 @@ server.use('/user', authRouter);
 
 server.listen(3000, () => {
     console.log('Express server listening at port : ', 3000)
-})
+}) //
