@@ -2,6 +2,7 @@
 
 jwt-rest-api is a simple api to understand and practice how jwt works
 aswell as how to create and image and a container on Docker.
+Using Postman to test it.
 
 ## Installation
 
